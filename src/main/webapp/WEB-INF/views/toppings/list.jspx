@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_klystop_fitology_domain_Topping" items="${toppings}" z="Owdj5xQxSLFPbEMsuTK4SKE0UjA=">
+        <table:table data="${toppings}" id="l_com_klystop_fitology_domain_Topping" path="/toppings" z="1BmBYreuGAbf104X0dMeAQ0AyCs=">
+            <table:column id="c_com_klystop_fitology_domain_Topping_name" property="name" z="ugbJsjJ+VBXDc79O4Mm7Ucmc9dE="/>
+        </table:table>
+    </page:list>
+</div>
